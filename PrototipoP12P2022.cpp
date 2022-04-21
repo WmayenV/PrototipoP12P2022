@@ -250,7 +250,31 @@ void menuMantenimiento(){
             }
     }
   }
-
+void menuCatalogo(){
+        system("cls");
+        int menu;
+        cout << "\n\t\tBienvenido al --MENU CRUD--" << endl;
+        cout << "\n\t\tElija el numero del menu al que quiere ingresar\n" << endl << "\t\t[1] Alta\n" << "\t\t[2] Baja\n" << "\t\t[3] Modificar\n" << "\t\t[4] Mostrar Datos\n" << "\t\t[5] Salir al --MENU PRINCIPAL--\n";cout<<"\n\t\t"; cin >> menu;
+        switch (menu){
+        case 1:
+            altas();
+            break;
+        case 2:
+            bajas();
+            break;
+        case 3:
+            modificar();
+            break;
+        case 4:
+            mostrarDatos();
+            break;
+        case 5:
+            cout << "\tSaliendo al --MENU PRINCIPAL--" << endl;
+            return menuPrincipal();
+            break;
+            }
+    }
+  }
 private:
 
     string identificacion, nombre, direccion, edad, correo, telefono, dituacion, desicion, busquedaDatos;;
