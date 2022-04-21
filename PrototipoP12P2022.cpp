@@ -482,3 +482,27 @@ private:
         }
     }
 };
+int main(){
+    system ("cls");
+    string usuario, contrasena, config1, config2;
+    fstream usuariosContrasenas;
+    usuariosContrasenas.open("seguridad.dat",ios::app|ios::in|ios::binary);
+    if(!usuariosContrasenas){
+        cout<<"\n\t\tError";
+        cout<<"\n\t\tNo se encontro el archivo, asegurese de que el archivo este en la misma carpeta que el programa";
+    }
+    else{
+        cout << "\n\t\t\tBIENVENIDO A MI PROTOTIPOP12P2022 9959-21-1581 WILLIAM OTTONIEL MAYEN VASQUEZ\n" << endl;
+        cout << "\n\t\tIngrese su usuario: "; cin >> usuario;
+        cout << "\n\t\tIngrese su contrasena: "; cin >> contrasena;
+        usuariosContrasenas>>config1>>config2;
+            if (usuario=="william" && contrasena =="9959211581"){
+                empleado prueba;
+                prueba.menuPrincipal();
+            }
+            else{
+                cout << "\n\t\t\tPermiso denegado\a";
+                exit(0);
+            }
+      }
+};
