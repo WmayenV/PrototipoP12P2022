@@ -6,7 +6,7 @@
 #include <math.h>
 using namespace std;
 
-class clientes{
+/*class clientes{
 public:
     void altas(){ // Como le di entendimiento, es a los clientes que se recuperaron y se les permite retirarse del hospital//
         system("cls");
@@ -489,7 +489,7 @@ private:
         }
     }
 };
-// se agrego seguridad al prototipo//
+// se agrego seguridad al prototipo//*/
 int main(){
     system ("cls");
     string usuario, contrasena, config1, config2;
@@ -505,8 +505,8 @@ int main(){
         cout << "\n\t\tIngrese su contrasena: "; cin >> contrasena;
         usuariosContrasenas>>config1>>config2;
             if (usuario=="william" && contrasena =="9959211581"){
-                empleado prueba;
-                prueba.menuPrincipal();
+                /*persona prueba;
+                prueba.menuPrincipal();*/
             }
             else{
                 cout << "\n\t\t\tPermiso denegado\a";
