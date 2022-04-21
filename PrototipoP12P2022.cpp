@@ -104,7 +104,7 @@ public:
             }
     }
 
-    void mostrarDatos(){
+    void mostrarDatos(){ // se mostraran datos de los clientes ingresados al centro hospitalario//
 
         system("cls");
         fstream baseDatos;
