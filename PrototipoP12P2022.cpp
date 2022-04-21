@@ -57,7 +57,7 @@ public:
                 }
         }
     };
-    void modificar(){
+    void modificar(){//aqui se haran arreglos para modificar informacion de los clientes//
 
         system("cls");
         fstream baseDatos, modBaseDatos;
