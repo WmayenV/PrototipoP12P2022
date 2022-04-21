@@ -10,6 +10,13 @@ class clientes{
 public:
     void altas(){
         system("cls");
+        fstream baseDatos;
+        cout << "\n\t\t\tEntrando al menu --REGISTRAR EMPLEADOS--\n" << endl;
+        cout << "\n\t¿Quires salir al --MENU MANTENIMIENTO--? [ si / no ] : "; cin >> desicion; //No se porque es el error de desicion no esta declarada//
+        if (desicion=="si"){
+            return menuMantenimiento();
+        }
+        else {
 
             cout << "\n\t\tIngrese el numero de documento de identificacion de la persona:"; cin >> identificacion;
             cout << "\t\tIngrese el nombre de la persona a registrar: "; cin >> nombre;
@@ -49,7 +56,7 @@ public:
                     return menuMantenimiento();
                 }
         }
-    }
+    };
     void modificar(){
 
         system("cls");
