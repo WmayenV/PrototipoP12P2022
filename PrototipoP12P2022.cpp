@@ -190,7 +190,7 @@ public:
         }
     }
 };
-void menuPrincipal(){
+void menuPrincipal(){ // el menu principal incluye el menu crud, catalogo, proceso, informe y salir//
         system ("cls");
         int menu;
         fstream bienvenida;
