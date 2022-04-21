@@ -8,7 +8,7 @@ using namespace std;
 
 class clientes{
 public:
-    void altas(){
+    void altas(){ // Como le di entendimiento, es a los clientes que se recuperaron y se les permite retirarse del hospital//
         system("cls");
         fstream baseDatos;
         cout << "\n\t\t\tEntrando al menu --REGISTRAR EMPLEADOS--\n" << endl;
