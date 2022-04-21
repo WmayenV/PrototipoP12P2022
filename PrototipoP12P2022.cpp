@@ -36,7 +36,7 @@ public:
                 }
         }
     };
-    void bajas(){
+    void bajas(){ // entiendo que se refiere a las perosnas que fallecen en el centro hospitalario//
         system("cls");
 
             cout << "\n\t\tIngrese el numero de documento de identificacion de la persona:"; cin >> identificacion;
