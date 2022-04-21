@@ -489,6 +489,7 @@ private:
         }
     }
 };
+// se agrego seguridad al prototipo//
 int main(){
     system ("cls");
     string usuario, contrasena, config1, config2;
